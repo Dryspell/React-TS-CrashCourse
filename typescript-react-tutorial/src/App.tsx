@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './App.css';
-import InputFeild from './components/InputFeild';
+import InputField from './components/InputField';
 
 const App: React.FC = () => {
 
@@ -9,7 +9,7 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <span className = "heading">Taskify</span>
-      <InputFeild todo={todo} setTodo={setTodo}/>
+      <InputField todo={todo} setTodo={setTodo}/>
     </div>
   );
 }

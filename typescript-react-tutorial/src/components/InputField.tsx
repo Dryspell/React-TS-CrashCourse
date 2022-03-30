@@ -6,7 +6,7 @@ interface Props{
     setTodo: React.Dispatch<React.SetStateAction<string>>;
 }
 
-export default function InputFeild({todo, setTodo}: Props) {
+export default function InputField({todo, setTodo}: Props) {
   return (
     <form className="input">
         <input type="input" placeholder="Enter your task here" className="input__box"/>
