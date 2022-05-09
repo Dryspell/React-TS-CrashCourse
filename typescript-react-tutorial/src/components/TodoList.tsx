@@ -18,13 +18,15 @@ const TodoList:React.FC<Props>= ({todos, setTodos}) => {
                 {todos.map((todo) => (
                     <SingleTodo todo={todo} todos={todos} setTodos={setTodos} key={todo.id}/>
                 ))}
+        </div>
+        <div className='todos remove'>
                 <span className="todos__heading">
                     Completed Tasks
                 </span>
                 {todos.map((todo) => (
                     <SingleTodo todo={todo} todos={todos} setTodos={setTodos} key={todo.id}/>
                 ))}
-        </div>
+                </div>
         </div>
     )
 }
