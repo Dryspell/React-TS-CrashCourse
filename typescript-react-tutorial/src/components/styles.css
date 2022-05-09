@@ -1,6 +1,6 @@
 .input {
     display:flex;
-    width: 90%;
+    width: 95%;
     position: relative;
     align-items: center;
 }
@@ -43,11 +43,22 @@
     transform: scale(0.8);
     box-shadow: 0 0 5px black;
 }
+
+.container{
+  display: flex;
+  width: 95%;
+  margin-top: 10px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
 .todos {
     display:flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    width: 90%;
+    width: 47.5%;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgb(50,195,205);
 }
 
 .todos__single {
