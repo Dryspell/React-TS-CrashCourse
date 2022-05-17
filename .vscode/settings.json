@@ -20,5 +20,5 @@
     },
     "peacock.color": "#61dafb",
     "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": true
 }
